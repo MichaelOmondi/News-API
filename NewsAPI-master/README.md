@@ -1,11 +1,11 @@
-# Habari.. Chap Chap
+# News-channel
 
-## Built By [Tom Chege](https://github.com/emdeechege/)
+## Built By [Michael Omondi]
 
 ## Description
-Habri.. Chap chap is a web application that displays a list of various news sources. On choosing a news source, it will preview the top news articles of the day. Clicking a news article will redirect the user to read it fully from the news source. It achieves this by using the [News API](https://newsapi.org/).
+News channel is a web application that displays a list of various news sources. On choosing a news source, it will preview the top news articles of the day. Clicking a news article will redirect the user to read it fully from the news source. It achieves this by using the [News API](https://newsapi.org/).
 
-You can view the site at:[Heroku](https://emdeenews.herokuapp.com/)
+You can view the site at:[Heroku]
 
 ## User Stories
 These are the behaviours/features that the application implements for use by a user.
@@ -29,20 +29,20 @@ As a user I would like to:
 
 ## SetUp / Installation Requirements
 ### Prerequisites
-* python3.6
+* python3.7
 * pip
 * virtualenv
 
 ### Cloning
 * In your terminal:
 
-        $ git clone https://github.com/emdeechege/NewsApi/
-        $ cd NewsPI
+        $ git clone 
+        $ cd NewsAPI
 
 ## Running the Application
 * Creating the virtual environment
 
-        $ python3.6 -m venv --without-pip virtual
+        $ python3.7 -m venv --without-pip virtual
         $ source virtual/bin/env
         $ curl https://bootstrap.pypa.io/get-pip.py | python
 
@@ -61,27 +61,23 @@ As a user I would like to:
         * Insert the following info into it:
 
                 export NEWS_API_KEY='<Your-Api-Key>'
-                python3.6 manage.py server
+                python3.7 manage.py server
 
         * Insert the API Key you received from News Api where <Your-Api-Key> is.
 
-* To run the application, in your terminal:
 
-        $ chmod +x start.sh
-        $ ./start.sh
-
-## Testing the Application
-* To run the tests for the class files:
-
-        $ python3.6 manage.py tests
 
 ## Technologies Used
-* Python3.6
+* Python3.7
 * Flask
+
+## contact informarion
+* Incase of any querry, reach me via e-mail on 
+ omondimike11@gmail.com
 
 ## License
 
-Copyright (c) 2018 emdeechege
+Copyright (c) 2020 Michael Omondi
 
 ------------
 
